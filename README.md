@@ -1,7 +1,9 @@
 # PRODEN
 
 This is the code for the paper: Progressive Identification of True Labels for Partial-Label Learning
+
 Jiaqi Lv, Miao Xu, Lei Feng, Gang Niu, Xin Geng, Masashi Sugiyama
+
 To be presented at ICML 2020.
 
 ## Setups
