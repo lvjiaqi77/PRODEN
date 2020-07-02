@@ -6,7 +6,6 @@ import torch.nn.functional as F
 import torchvision.transforms as transforms 
 import argparse
 import numpy as np
-import scipy.io as scio
 
 from loss import partial_loss
 from model_linear import Linearnet
