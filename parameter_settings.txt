@@ -1,0 +1,26 @@
+Here we list the searched parameter settings for PRODEN (to reproduce the experimental results).
+
+# linear model 
+MNIST:  lr    1e-3    weight_decay    1e-5       batchsize    256
+KMNIST:  lr    1e-3    weight_decay    1e-6       batchsize    256
+Fashion:  lr    1e-3    weight_decay    1e-5       batchsize    256
+Yeast:  lr    1e-1    weight_decay    1e-3       batchsize    100
+Texture:  lr    1e-1    weight_decay    1e-5       batchsize    100
+Dermatology:  lr    1e-2    weight_decay    1e-3       batchsize    100
+Synthetic Control:  lr    1e-1    weight_decay    1e-3       batchsize    100
+20newsgroup:  lr    1e-3    weight_decay    1e-3       batchsize    100
+Lost:  lr    1e-2    weight_decay    1e-2       batchsize    100
+Birdsong:  lr    1e-2    weight_decay    1e-4       batchsize    100
+MSRCv2:  lr    1e-1    weight_decay    1e-3       batchsize    100
+Soccer Player:  lr    1e-1    weight_decay    1e-4       batchsize    100
+Yahoo! News:  lr    1e-2    weight_decay    1e-4       batchsize    100
+
+# MLP 
+MNIST:  lr    1e-2    weight_decay    1e-3       batchsize    256
+KMNIST:  lr    1e-2    weight_decay    1e-4       batchsize    256
+Fashion:  lr    1e-2    weight_decay    1e-5       batchsize    256
+
+# ResNet
+CIFAR-10:  lr    5e-2    wd    1e-3       batchsize    256
+# ConvNet
+CIFAR-10:  lr    1e-2    wd    1e-3       batchsize    256    decay_step    10    decay_rate    0.9
