@@ -6,7 +6,7 @@ import codecs
 import numpy as np
 import torch
 import torch.utils.data as data
-from .utils_algo import binarize_class, partialize
+from utils.utils_algo import binarize_class, partialize
 
 class mnist(data.Dataset):
     """`MNIST <http://yann.lecun.com/exdb/mnist/>`_ Dataset.
