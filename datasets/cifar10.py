@@ -6,7 +6,7 @@ import torch
 import numpy as np
 import pickle 
 import torch.utils.data as data
-from .utils_algo import binarize_class, partialize, check_integrity, download_url
+from utils.utils_algo import binarize_class, partialize, check_integrity, download_url
 
 class cifar10(data.Dataset):
     """`CIFAR10 <https://www.cs.toronto.edu/~kriz/cifar.html>`_ Dataset.
