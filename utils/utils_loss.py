@@ -10,7 +10,7 @@ def partial_loss(output1, target, true):
     revisedY = target.clone()
     revisedY[revisedY > 0]  = 1
     revisedY = revisedY * output
-    revisedY = revisedY / revisedY.sum(dim=1).repeat(10,1).transpose(0,1)
+    revisedY = revisedY / revisedY.sum(dim=1).repeat(revisedY.size(1),1).transpose(0,1)
 
     new_target = revisedY
 
