@@ -40,7 +40,6 @@ parser.add_argument('-partial_rate', help='flipping probability', type=float, de
 
 parser.add_argument('-nw', help='multi-process data loading', type=int, default=4, required=False)
 parser.add_argument('-dir', help='result save path', type=str, default='results/', required=False)
-parser.add_argument('-seed', help='random seed', type=int, default=0, required=False)
 
 args = parser.parse_args()
 
