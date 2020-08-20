@@ -43,7 +43,6 @@ parser.add_argument('-dir', help='result save path', type=str, default='results/
 parser.add_argument('-seed', help='random seed', type=int, default=0, required=False)
 
 args = parser.parse_args()
-np.random.seed(args.seed)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
