@@ -12,7 +12,7 @@ https://github.com/bhanML/Co-teaching/blob/master/model.py
 '''
 
 class convnet(nn.Module):
-    def __init__(self, input_channel=3, n_outputs=10, dropout_rate=0.25):
+    def __init__(self, input_channels=3, n_outputs=10, dropout_rate=0.25):
         self.dropout_rate = dropout_rate
         super(convnet, self).__init__()
 
